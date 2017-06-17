@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Amazon like CLI App",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephtball/Bamazon.git"
+  },
+  "author": "Joseph T Ball",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephtball/Bamazon/issues"
+  },
+  "homepage": "https://github.com/josephtball/Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.1.0",
+    "mysql": "^2.13.0"
+  }
+}
