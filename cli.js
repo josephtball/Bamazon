@@ -1,5 +1,6 @@
 var inquirer = require("inquirer");
 var customer = require("./bamazonCustomer.js");
+var manager = require("./bamazonManager.js");
 
 inquirer.prompt([
 	{
@@ -14,7 +15,7 @@ inquirer.prompt([
 			new customer;
 			break;
 		case "Manager":
-			console.log("Option not available yet.");
+			new manager;
 			break;
 		case "Supervisor":
 			console.log("Option not available yet.");
